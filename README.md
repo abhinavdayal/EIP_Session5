@@ -20,7 +20,9 @@ EMOTION_OUTPUT: [TRAIN] loss: 0.86, acc: 0.71, [TEST] loss: 0.89, acc: 0.68
 BODYPOSE_OUTPUT: [TRAIN] loss: 0.47, acc: 0.81, [TEST] loss: 0.46, acc: 0.80
 ```
 
-Second try with CLR: [link](https://github.com/abhinavdayal/EIP_Session5/blob/master/Experiment_05_Davidnet_PersonAttributes_CLR_multigrad%2C_multilr.ipynb). Here I did data augmentation trying to remove skweness in distribution. Dont look at test_acc, it is dividing by original length of train data rather than the new augmented length. 
+Second try with CLR: [link](https://github.com/abhinavdayal/EIP_Session5/blob/master/Experiment_05_Davidnet_PersonAttributes_CLR_multigrad%2C_multilr.ipynb). 
+
+Here I did data augmentation trying to remove skweness in distribution. Dont look at test_acc, it is dividing by original length of train data rather than the new augmented length. 
 ```
 GENDER_OUTPUT: [TRAIN] loss: 2.02, acc: 5.30, [TEST] loss: 0.39, acc: 0.81
 IMAGEQUALITY_OUTPUT: [TRAIN] loss: 5.56, acc: 3.52, [TEST] loss: 0.92, acc: 0.53
@@ -33,6 +35,7 @@ BODYPOSE_OUTPUT: [TRAIN] loss: 2.85, acc: 5.05, [TEST] loss: 0.56, acc: 0.75
 ```
 
 Third try without CLR but same as above: [link](https://github.com/abhinavdayal/EIP_Session5/blob/master/Experiment_05_Davidnet_PersonAttributes_multigrad%2C_multilr.ipynb)
+```
 EPOCH:6, global_step = 13398, lr: 0.001, train loss: 0.28, train acc: 0.90, val loss: 1.21, val acc: 0.58, time: 1:39:22
 GENDER_OUTPUT: [TRAIN] loss: 0.10, acc: 0.96, [TEST] loss: 0.47, acc: 0.83
 IMAGEQUALITY_OUTPUT: [TRAIN] loss: 0.34, acc: 0.87, [TEST] loss: 1.36, acc: 0.49
@@ -42,3 +45,4 @@ CARRYINGBAG_OUTPUT: [TRAIN] loss: 0.27, acc: 0.90, [TEST] loss: 1.20, acc: 0.63
 FOOTWEAR_OUTPUT: [TRAIN] loss: 0.29, acc: 0.89, [TEST] loss: 1.20, acc: 0.56
 EMOTION_OUTPUT: [TRAIN] loss: 0.31, acc: 0.88, [TEST] loss: 1.37, acc: 0.54
 BODYPOSE_OUTPUT: [TRAIN] loss: 0.15, acc: 0.95, [TEST] loss: 0.59, acc: 0.79
+```
