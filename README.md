@@ -32,4 +32,13 @@ EMOTION_OUTPUT: [TRAIN] loss: 6.97, acc: 3.04, [TEST] loss: 1.19, acc: 0.37
 BODYPOSE_OUTPUT: [TRAIN] loss: 2.85, acc: 5.05, [TEST] loss: 0.56, acc: 0.75
 ```
 
-Third try without CLR but same as above: [link]()
+Third try without CLR but same as above: [link](https://github.com/abhinavdayal/EIP_Session5/blob/master/Experiment_05_Davidnet_PersonAttributes_multigrad%2C_multilr.ipynb)
+EPOCH:6, global_step = 13398, lr: 0.001, train loss: 0.28, train acc: 0.90, val loss: 1.21, val acc: 0.58, time: 1:39:22
+GENDER_OUTPUT: [TRAIN] loss: 0.10, acc: 0.96, [TEST] loss: 0.47, acc: 0.83
+IMAGEQUALITY_OUTPUT: [TRAIN] loss: 0.34, acc: 0.87, [TEST] loss: 1.36, acc: 0.49
+AGE_OUTPUT: [TRAIN] loss: 0.46, acc: 0.83, [TEST] loss: 2.06, acc: 0.35
+WEIGHT_OUTPUT: [TRAIN] loss: 0.32, acc: 0.88, [TEST] loss: 1.45, acc: 0.49
+CARRYINGBAG_OUTPUT: [TRAIN] loss: 0.27, acc: 0.90, [TEST] loss: 1.20, acc: 0.63
+FOOTWEAR_OUTPUT: [TRAIN] loss: 0.29, acc: 0.89, [TEST] loss: 1.20, acc: 0.56
+EMOTION_OUTPUT: [TRAIN] loss: 0.31, acc: 0.88, [TEST] loss: 1.37, acc: 0.54
+BODYPOSE_OUTPUT: [TRAIN] loss: 0.15, acc: 0.95, [TEST] loss: 0.59, acc: 0.79
