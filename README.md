@@ -46,3 +46,9 @@ FOOTWEAR_OUTPUT: [TRAIN] loss: 0.29, acc: 0.89, [TEST] loss: 1.20, acc: 0.56
 EMOTION_OUTPUT: [TRAIN] loss: 0.31, acc: 0.88, [TEST] loss: 1.37, acc: 0.54
 BODYPOSE_OUTPUT: [TRAIN] loss: 0.15, acc: 0.95, [TEST] loss: 0.59, acc: 0.79
 ```
+
+Fourth attempt, tried simple model with separable conv layers [link](https://github.com/abhinavdayal/EIP_Session5/blob/master/Copy_of_simplefunctional_model.ipynb)
+```
+Epoch 10/10
+360/360 [==============================] - 505s 1s/step - loss: 6.8687 - gender_output_loss: 0.4682 - image_quality_output_loss: 0.8920 - age_output_loss: 1.3763 - weight_output_loss: 0.9572 - bag_output_loss: 0.8408 - pose_output_loss: 0.6531 - footwear_output_loss: 0.8160 - emotion_output_loss: 0.8650 - gender_output_accuracy: 0.7784 - image_quality_output_accuracy: 0.5741 - age_output_accuracy: 0.4056 - weight_output_accuracy: 0.6331 - bag_output_accuracy: 0.6216 - pose_output_accuracy: 0.7238 - footwear_output_accuracy: 0.6303 - emotion_output_accuracy: 0.7220 - val_loss: 7.6599 - val_gender_output_loss: 0.4727 - val_image_quality_output_loss: 1.3901 - val_age_output_loss: 1.4065 - val_weight_output_loss: 0.9653 - val_bag_output_loss: 0.9231 - val_pose_output_loss: 0.7189 - val_footwear_output_loss: 0.8854 - val_emotion_output_loss: 0.8979 - val_gender_output_accuracy: 0.7732 - val_image_quality_output_accuracy: 0.3226 - val_age_output_accuracy: 0.3891 - val_weight_output_accuracy: 0.6447 - val_bag_output_accuracy: 0.5393 - val_pose_output_accuracy: 0.6865 - val_footwear_output_accuracy: 0.5872 - val_emotion_output_accuracy: 0.7077
+```
